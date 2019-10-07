@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class CetakKata {
+    public static void main(String[] args) {
+        Scanner yukCetak = new Scanner(System.in);
+        String bacotan;
+
+        do {
+            System.out.print("Masukkan Bacotan =");
+            bacotan = yukCetak.nextLine();
+            System.out.println(bacotan);
+        } while (!bacotan.equalsIgnoreCase("Stop"));
+
+    }
+}
